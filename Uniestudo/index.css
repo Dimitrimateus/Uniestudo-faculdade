@@ -18,42 +18,34 @@ header{
     background-color: black;
     align-self: center;
     border-radius: 50%;
-     
 }
 #User{
-    width: 75px;
-    height: 75px; 
+    margin-top: 5px;
+    width: 68px;
+    height: 68px; 
 }
 #Configurações{
-    width: 75px;
-    height: 75px;
+    margin-top: 5px;
+    width: 68px;
+    height: 68px;
 }
 .carrossel-postagens{
     width: 630px;
-    height: auto;
-    border: 2px solid green;
+    height: 100%;
     margin-left: 356.5px;
     margin-right: 365.5px;
     margin-top: 20px;
     display: flex;
     justify-content: center;
-
 }
 .postagem{
-    margin-top: 30px;
-    border: 2px solid black;
+    margin-top: 50px;
     width: 468px;
     height: 585px;
-    box-sizing: border-box;
-    
 }
 .rodape-postagem{
     height: 50px;
     display: flex;
-
-}
-.perfil-foto{
-    background-size: cover;
 }
 .item-imagem{
     height: 40px;
@@ -61,7 +53,6 @@ header{
     margin-left: 5px;
     margin-top: 5px;
     border-radius: 20px;
-    
 }
 .perfil-ocupacao{
     margin-left: 20px;
@@ -82,23 +73,86 @@ header{
     height: 20px;
     width: 20px;
     margin-top: 15px;
-    margin-left: 15px;
+    margin-left: 25px;
     position: static;
     
 }
 .conteudo-postagem{
     min-height: 440px;
     
+    
 }
 .conteudo{
     min-height: 440px;
     max-width: 100%;
+    border-radius: 5px;
     
 }
-.rodape-baixo-postagem{
-    border: 1px solid yellow;
+.rodape-baixo-postagem {
     height: 50px;
- 
+    width: 468px;
+    display: flex;
+    align-items: center
 }
+.coracao{
+    margin-left: 10px;
+    
+}
+
+input[type="checkbox"]{
+    height: 17px;
+    width: 17px;
+    background-color: rgb(0, 0, 0);
+    outline: none;
+    transform: rotate(45deg);
+    appearance: none;
+    cursor: pointer;
+}
+input[type="checkbox"]:before{
+    position: absolute;
+    content: "";
+    background-color: rgb(0, 0, 0);
+    height: 60%;
+    width: 100%;
+    top: -57%;
+    border-radius: 75px 75px 0 0;
+    cursor: pointer;
+    
+}
+input[type="checkbox"]:after{
+    position: absolute;
+    content: "";
+    background-color: black;
+    height: 58%;
+    width: 100%;
+    transform: rotate(-90deg);
+    border-radius: 75px 75px 0 0;
+    top: 20%;
+    right: 79%;
+    cursor: pointer;
+    
+    
+}input[type="checkbox"]:checked,
+input:checked[type="checkbox"]:before,
+input:checked[type="checkbox"]:after{
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+    
+}
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
 
 
