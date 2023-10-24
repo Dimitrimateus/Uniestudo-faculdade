@@ -24,6 +24,7 @@ main{
     background-color: black;
     margin-top: 20px;
     margin-left: 160px; 
+    border-radius: 50%;
 }
 #titulo-login{
     margin-top: 20px;
