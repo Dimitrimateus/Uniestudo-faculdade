@@ -69,11 +69,11 @@ header{
     margin-left: 80px;
     font-size: 12px;
 }
-.config{
-    height: 20px;
-    width: 20px;
+.share{
+    height: 25px;
+    width: 25px;
     margin-top: 15px;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 .conteudo-postagem{
     min-height: 440px;
@@ -129,13 +129,22 @@ input[type="checkbox"]:after{
     right: 79%;
     cursor: pointer;
     
-    
+ 
 }input[type="checkbox"]:checked,
 input:checked[type="checkbox"]:before,
 input:checked[type="checkbox"]:after{
     background-color: rgb(255, 0, 0);
     cursor: pointer;
     
+}
+.atencao{
+    margin-bottom: 5px;
+    margin-left: 400px;
+    display: flex;
+}
+.atencao img{
+    height: 30px;
+    width: 30px;
 }
 
 
